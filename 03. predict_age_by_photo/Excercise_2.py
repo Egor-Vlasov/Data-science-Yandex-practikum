@@ -1,3 +1,13 @@
+
+# Задание 2
+# Постройте и обучите свёрточную нейронную сеть на наборе данных с одеждой. Для этого создайте в коде три функции:
+# загрузки обучающей выборки load_train(),
+# создания модели create_model(),
+# запуска модели train_model().
+# Добейтесь того, чтобы значение accuracy на тестовой выборке было не меньше 87%.
+
+
+
 from keras.datasets import fashion_mnist
 from keras.models import Sequential
 import numpy as np
