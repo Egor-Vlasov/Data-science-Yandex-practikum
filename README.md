@@ -2,18 +2,18 @@
 
 В данном репозитории собраны проекты, выполненные в процессе обучения по программе профессиональной переподготовки [Специалист по Data Science](https://practicum.yandex.ru/data-scientist/) в Яндекс.Практикум. Проекты расположены в порядке убывания: от выпускного к самым первым.
 
-## Навыки и технологии
-**Анализ данных:** `Pandas`, `NumPy`, `SciPy`, `Exploratory Data Analysis`, `Статистический тест`
-**Визуализация:** `Matplotlib`, `Seaborn`, `Plotly`
-**Машинное обучение:** `Scikit-learn`, `CatBoost`, `LightGBM`, `XGBoost`, `Keras`, `PyTorch`, `SARIMA`
-**NLP:** `TF-IDF`, `nltk`, `spaCy`, `BERT`, `CLIP`
-**Computer Vision:** `Keras`, `TensorFlow`, `OpenCV`
-**Инструменты:** `Git`, `Jupyter Notebook`, `VS Code`, `SQL`
+## Навыки и технологии       
+**Анализ данных:** `Pandas`, `NumPy`, `SciPy`, `Exploratory Data Analysis`, `Статистический тест`      
+**Визуализация:** `Matplotlib`, `Seaborn`, `Plotly`       
+**Машинное обучение:** `Scikit-learn`, `CatBoost`, `LightGBM`, `XGBoost`, `Keras`, `PyTorch`, `SARIMA`, `Optuna`       
+**NLP:** `TF-IDF`, `nltk`, `spaCy`, `BERT`, `CLIP`      
+**Computer Vision:** `Keras`, `TensorFlow`, `OpenCV`      
+**Инструменты:** `Git`, `Jupyter Notebook`, `VS Code`, `SQL`      
 
 
 | Проект                                                                      | Описание                                                                                                              | Стек                                                                     | Ключевые навыки                                                        |
 | :-------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------- | :--------------------------------------------------------------------- |
-| **[Предсказание температуры в промышленности](01.%20final_project)**        | Разработка модели для предсказания температуры сплава для снижения энергопотребления и выявления важных признаков.    | `PyTorch` `LightGBM` `SQL` `Pandas` `Scikit-learn` `NumPy`               | `Регрессия` `Feature Engineering` `Визуализация` `SQL`                 |
+| **[Предсказание температуры в промышленности](01.%20final_project)**        | Разработка модели для предсказания температуры сплава для снижения энергопотребления и выявления важных признаков.    | `PyTorch` `LightGBM` `SQL` `Pandas` `Scikit-learn` `NumPy` `Optuna`              | `Регрессия` `Feature Engineering` `Визуализация` `SQL`                 |
 | **[Поиск изображений по текстовому описанию](02.%20select_image_by_text)**  | Разработка модели для сопоставления текстовых запросов с релевантными изображениями.                                  | `Pandas` `NumPy` `PyTorch` `OpenCV` `CLIP` `PIL`                         | `Computer Vision` `NLP` `Multimodal Learning`                          |
 | **[Определение возраста по фотографии](03.%20predict_age_by_photo)**        | Создание CNN-модели для определения приблизительного возраста человека по фотографии.                                 | `Keras` `TensorFlow` `PIL` `Matplotlib` `Pandas`                         | `Computer Vision` `Нейронные сети` `Transfer Learning`                 |
 | **[Прогнозирование спроса на такси](04.%20cnt_taxi_clients_by_next_time)**  | Разработка модели для предсказания количества заказов такси на следующий час для эффективного распределения ресурсов. | `Pandas` `Scikit-learn` `Statsmodels` `CatBoost` `Matplotlib` `LightGBM` | `Временные ряды` `Регрессия` `Feature Engineering`                     |
